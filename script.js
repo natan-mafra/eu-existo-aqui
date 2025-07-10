@@ -17,4 +17,4 @@ function updateWord() {
 }
 
 updateWord();
-setInterval(updateWord, 2000);
+setInterval(updateWord, 1000);

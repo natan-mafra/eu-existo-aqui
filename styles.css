@@ -3,8 +3,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #111;
-  color: white;
+  background: #fff;
+  color: black;
   font-family: sans-serif;
   margin: 0;
 }
@@ -14,11 +14,11 @@ body {
 }
 
 #word {
-  color: cyan;
+  color: #007BFF;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 #word:hover {
-  color: magenta;
+  color: #0056b3;
 }
