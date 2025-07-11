@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <title>eu existo aqui</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="content"></div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const country = urlParams.get('country') || 'País não informado';
+
+        const contentDiv = document.getElementById('content');
+        contentDiv.innerHTML = `<h1>${country}</h1>`;
+    </script>
+</body>
+</html>
