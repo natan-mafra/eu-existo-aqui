@@ -1,0 +1,18 @@
+body {
+    background-color: white;
+    font-family: 'Crimson Pro', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+}
+
+#word {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+* { text-transform: lowercase; }
