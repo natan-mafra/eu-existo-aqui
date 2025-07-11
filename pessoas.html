@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <title>eu existo aqui</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="content"></div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const country = urlParams.get('country') || 'País não informado';
+
+        const placeholders = [
+            {name: "Pessoa 1 de " + country, img: "https://via.placeholder.com/150"},
+            {name: "Pessoa 2 de " + country, img: "https://via.placeholder.com/150"}
+        ];
+
+        const contentDiv = document.getElementById('content');
+        contentDiv.innerHTML = `<h1>Pessoas Transexuais - ${country}</h1>`;
+
+        placeholders.forEach(p => {
+            contentDiv.innerHTML += `<p>${p.name} <br> <img src='${p.img}' alt='${p.name}'></p>`;
+        });
+    </script>
+</body>
+</html>
