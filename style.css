@@ -1,0 +1,47 @@
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Crimson Pro', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+#word {
+    font-size: 5vw; /* Responsive font size */
+    font-weight: normal;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 a {
+    font-size: 3vw;
+    font-weight: normal;
+}
+
+/* Styles for the person list page */
+.pessoa-card {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.pessoa-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.pessoa-card .nome-pessoa {
+    margin-top: 0.5em;
+    font-size: 1.2em;
+}
