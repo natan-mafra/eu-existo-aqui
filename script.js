@@ -1,4 +1,4 @@
-let index = 0;
+let index = Math.floor(Math.random() * languages.length);
 const wordDiv = document.getElementById("word");
 
 function showWord() {
