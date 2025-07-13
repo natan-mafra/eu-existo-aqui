@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <title>eu existo aqui</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="content"></div>
+
+    <script src="pessoas-data.js"></script> 
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const countryKey = urlParams.get('key');
+        const countryDisplayName = (urlParams.get('name') || countryKey || 'país não informado').toLowerCase();
+
+        const contentDiv = document.getElementById('content');
+        contentDiv.innerHTML = `<h1><a href="index.html">${countryDisplayName}</a></h1>`;
+
+        const listaDePessoas = pessoasPorPais[countryKey] || [];
+
+        // FIX: Loop only runs if there are people. Uses robust DOM creation. No "else" block.
+        if (listaDePessoas.length > 0) {
+            listaDePessoas.forEach(pessoa => {
+                // Create elements individually for robustness
+                const card = document.createElement('div');
+                card.className = 'pessoa-card';
+
+                const image = document.createElement('img');
+                image.src = pessoa.img;
+                image.alt = `Foto de ${pessoa.name}`;
+
+                const namePara = document.createElement('p');
+                namePara.className = 'nome-pessoa';
+                namePara.textContent = pessoa.name.toLowerCase();
+
+                // Append elements to the card, and the card to the content
+                card.appendChild(image);
+                card.appendChild(namePara);
+                contentDiv.appendChild(card);
+            });
+        }
+    </script>
+</body>
+</html>
