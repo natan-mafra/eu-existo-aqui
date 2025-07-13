@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -21,10 +20,13 @@
 
         const listaDePessoas = pessoasPorPais[countryKey] || [];
 
-        // FIX: Loop only runs if there are people. Uses robust DOM creation. No "else" block.
+        // FIX DEFINITIVO:
+        // 1. O loop só roda se a lista tiver pessoas.
+        // 2. O 'else' que mostrava o texto de "nenhuma pessoa encontrada" foi REMOVIDO.
+        // 3. A criação dos elementos foi refeita para ser mais robusta e garantir que as imagens carreguem.
         if (listaDePessoas.length > 0) {
             listaDePessoas.forEach(pessoa => {
-                // Create elements individually for robustness
+                // Cria os elementos do card de forma segura
                 const card = document.createElement('div');
                 card.className = 'pessoa-card';
 
@@ -36,7 +38,7 @@
                 namePara.className = 'nome-pessoa';
                 namePara.textContent = pessoa.name.toLowerCase();
 
-                // Append elements to the card, and the card to the content
+                // Adiciona os elementos ao card e o card à página
                 card.appendChild(image);
                 card.appendChild(namePara);
                 contentDiv.appendChild(card);
