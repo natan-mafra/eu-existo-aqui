@@ -1,12 +1,12 @@
 const pessoasPorPais = {
   // Países com pessoas encontradas
   "alemanha": [
-    { "name": "Nyke Slawik", "img": "images/nyke-slawik.jpg" },
-    { "name": "Tessa Ganserer", "img": "images/tessa-ganserer.jpg" }
+    { "name": "Nyke Slawik", "img": "images/nyke-slawik.webp" },
+    { "name": "Tessa Ganserer", "img": "images/tessa-ganserer.webp" }
   ],
   "argentina": [
-    { "name": "Flor de la V", "img": "images/flor-de-la-v.jpg" },
-    { "name": "Mariana Genesio Peña", "img": "images/mariana-genesio-pena.jpg" },
+    { "name": "Flor de la V", "img": "images/flor-de-la-v.webp" },
+    { "name": "Mariana Genesio Peña", "img": "images/mariana-genesio-pena.webp" },
     { "name": "La Tota Santillán", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Tota_Santillan_en_Showmatch_2017.jpg/440px-Tota_Santillan_en_Showmatch_2017.jpg" }
   ],
   "australia": [
@@ -18,13 +18,13 @@ const pessoasPorPais = {
     { "name": "Bo Van Spilbeeck", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Bo_Van_Spilbeeck_2018.jpg/440px-Bo_Van_Spilbeeck_2018.jpg" }
   ],
   "brasil": [
-    { "name": "Erika Hilton", "img": "images/erika-hilton.jpg" },
-    { "name": "Linn da Quebrada", "img": "images/linn-da-quebrada.jpg" },
-    { "name": "Laerte Coutinho", "img": "images/laerte-coutinho.jpg"},
+    { "name": "Erika Hilton", "img": "images/erika-hilton.webp" },
+    { "name": "Linn da Quebrada", "img": "images/linn-da-quebrada.webp" },
+    { "name": "Laerte Coutinho", "img": "images/laerte-coutinho.webp"},
     { "name": "Duda Salabert", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Duda_Salabert_em_2022.jpg/440px-Duda_Salabert_em_2022.jpg" }
   ],
   "canada": [
-    { "name": "Elliot Page", "img": "images/elliot-page.jpg" },
+    { "name": "Elliot Page", "img": "images/elliot-page.webp" },
     { "name": "Gigi Gorgeous", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Gigi_Gorgeous_2016.jpg/440px-Gigi_Gorgeous_2016.jpg" }
   ],
   "chile": [
@@ -36,8 +36,8 @@ const pessoasPorPais = {
     { "name": "Abril Zamora", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Abril_Zamora_-_Fotogramas_de_Plata_2021.jpg/440px-Abril_Zamora_-_Fotogramas_de_Plata_2021.jpg" }
   ],
   "estadosunidos": [
-    { "name": "Laverne Cox", "img": "images/laverne-cox.jpg" },
-    { "name": "Hunter Schafer", "img": "images/hunter-schafer.jpg" },
+    { "name": "Laverne Cox", "img": "images/laverne-cox.webp" },
+    { "name": "Hunter Schafer", "img": "images/hunter-schafer.webp" },
     { "name": "Indya Moore", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Indya_Moore_2019_by_Andy_Leung.jpg/440px-Indya_Moore_2019_by_Andy_Leung.jpg" },
     { "name": "Mj Rodriguez", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mj_Rodriguez_at_the_2019_PaleyFest.jpg/440px-Mj_Rodriguez_at_the_2019_PaleyFest.jpg" }
   ],
@@ -65,8 +65,8 @@ const pessoasPorPais = {
       { "name": "Anna Grodzka", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Anna_Grodzka_2012.jpg/440px-Anna_Grodzka_2012.jpg" }
   ],
   "reinounido": [
-    { "name": "Munroe Bergdorf", "img": "images/munroe-bergdorf.jpg"},
-    { "name": "Shon Faye", "img": "images/shon-faye.jpg"},
+    { "name": "Munroe Bergdorf", "img": "images/munroe-bergdorf.webp"},
+    { "name": "Shon Faye", "img": "images/shon-faye.webp"},
     { "name": "Travis Alabanza", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Travis_Alabanza_2020.jpg/440px-Travis_Alabanza_2020.jpg" }
   ],
   "venezuela": [
