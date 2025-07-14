@@ -1,6 +1,6 @@
 const pessoasPorPais = {
   // Países com pessoas encontradas
-  "africadosul": [ // Novo!
+  "africadosul": [
     { "name": "Yaya Mavundla", "img": "images/yaya-mavundla.webp" },
     { "name": "Leigh-Ann van der Merwe", "img": "images/leigh-ann-van-der-merwe.webp" }
   ],
@@ -24,7 +24,10 @@ const pessoasPorPais = {
     { "name": "Petra De Sutter", "img": "images/petra-de-sutter.webp" },
     { "name": "Bo Van Spilbeeck", "img": "images/bo-van-spilbeeck.webp" }
   ],
-  "brasil": [ // Expandido!
+  "bolivia": [ // Novo!
+    { "name": "Pamela Valenzuela", "img": "images/pamela-valenzuela.webp" }
+  ],
+  "brasil": [
     { "name": "Erika Hilton", "img": "images/erika-hilton.webp" },
     { "name": "Linn da Quebrada", "img": "images/linn-da-quebrada.webp" },
     { "name": "Laerte Coutinho", "img": "images/laerte-coutinho.webp"},
@@ -56,7 +59,7 @@ const pessoasPorPais = {
     { "name": "Carla Antonelli", "img": "images/carla-antonelli.webp" },
     { "name": "Abril Zamora", "img": "images/abril-zamora.webp" }
   ],
-  "estadosunidos": [ // Expandido!
+  "estadosunidos": [
     { "name": "Laverne Cox", "img": "images/laverne-cox.webp" },
     { "name": "Hunter Schafer", "img": "images/hunter-schafer.webp" },
     { "name": "Indya Moore", "img": "images/indya-moore.webp" },
@@ -75,6 +78,9 @@ const pessoasPorPais = {
   "franca": [
       { "name": "Marie Cau", "img": "images/marie-cau.webp" }
   ],
+  "grecia": [ // Novo!
+    { "name": "Anna Apergi", "img": "images/anna-apergi.webp" }
+  ],
   "india": [
       { "name": "Gauri Sawant", "img": "images/gauri-sawant.webp" },
       { "name": "Laxmi Narayan Tripathi", "img": "images/laxmi-narayan-tripathi.webp" }
@@ -83,14 +89,16 @@ const pessoasPorPais = {
       { "name": "Lydia Foy", "img": "images/lydia-foy.webp" },
       { "name": "Sara R Phillips", "img": "images/sara-r-phillips.webp" }
   ],
-  "islandia": [
-      { "name": "Ólöf Bjarki Antons", "img": "images/olof-bjarki-antons.webp" }
+  "islandia": [ // Expandido!
+      { "name": "Ólöf Bjarki Antons", "img": "images/olof-bjarki-antons.webp" },
+      { "name": "Alda Villiljós", "img": "images/alda-villiljos.webp" }
   ],
   "italia": [
       { "name": "Vladimir Luxuria", "img": "images/vladimir-luxuria.webp" }
   ],
-  "japao": [
-      { "name": "Tomoya Hosoda", "img": "images/tomoya-hosoda.webp" }
+  "japao": [ // Expandido!
+      { "name": "Tomoya Hosoda", "img": "images/tomoya-hosoda.webp" },
+      { "name": "Kayo Satoh", "img": "images/kayo-satoh.webp" }
   ],
   "mexico": [
       { "name": "Victoria Volkova", "img": "images/victoria-volkova.webp" },
@@ -102,14 +110,15 @@ const pessoasPorPais = {
   "novazelandia": [
       { "name": "Georgina Beyer", "img": "images/georgina-beyer.webp" }
   ],
-  "paisesbaixos": [
-      { "name": "Lisa van Ginneken", "img": "images/lisa-van-ginneken.webp" }
+  "paisesbaixos": [ // Expandido!
+      { "name": "Lisa van Ginneken", "img": "images/lisa-van-ginneken.webp" },
+      { "name": "Nikkie de Jager", "img": "images/nikkie-de-jager.webp" }
   ],
   "paquistao": [
       { "name": "Marvia Malik", "img": "images/marvia-malik.webp" },
       { "name": "Nayyab Ali", "img": "images/nayyab-ali.webp" }
   ],
-  "peru": [ // Novo!
+  "peru": [
     { "name": "Gahela Cari", "img": "images/gahela-cari.webp" }
   ],
   "polonia": [
@@ -119,7 +128,7 @@ const pessoasPorPais = {
       { "name": "Marina Machete", "img": "images/marina-machete.webp" },
       { "name": "Maria João Vaz", "img": "images/maria-joao-vaz.webp" }
   ],
-  "reinounido": [ // Expandido!
+  "reinounido": [
     { "name": "Munroe Bergdorf", "img": "images/munroe-bergdorf.webp"},
     { "name": "Shon Faye", "img": "images/shon-faye.webp"},
     { "name": "Travis Alabanza", "img": "images/travis-alabanza.webp" },
@@ -130,13 +139,15 @@ const pessoasPorPais = {
     { "name": "Lina Axelsson Kihlblom", "img": "images/lina-axelsson-kihlblom.webp" },
     { "name": "Saga Becker", "img": "images/saga-becker.webp" }
   ],
-  "suica": [
+  "suica": [ // Expandido!
     { "name": "Aleshanee", "img": "images/aleshanee.webp" },
-    { "name": "Tamy Glauser", "img": "images/tamy-glauser.webp" }
+    { "name": "Tamy Glauser", "img": "images/tamy-glauser.webp" },
+    { "name": "Giuliana Farfalla", "img": "images/giuliana-farfalla.webp" }
   ],
-  "tailandia": [
+  "tailandia": [ // Expandido!
     { "name": "Treechada Petcharat", "img": "images/treechada-petcharat.webp" },
-    { "name": "Parinya Charoenphol", "img": "images/parinya-charoenphol.webp" }
+    { "name": "Parinya Charoenphol", "img": "images/parinya-charoenphol.webp" },
+    { "name": "Bell Nuntita", "img": "images/bell-nuntita.webp" }
   ],
   "uruguai": [
     { "name": "Gloria Meneses", "img": "images/gloria-meneses.webp" }
@@ -145,6 +156,6 @@ const pessoasPorPais = {
       { "name": "Tamara Adrián", "img": "images/tamara-adrian.webp" }
   ],
   
-  // Países que permanecem vazios após a busca aprofundada
-  "afeganistao": [], "arabiasaudita": [], "bangladesh": [], "bolivia": [], "china": [], "costarica": [], "cuba": [], "egito": [], "emiradosarabes": [], "equador": [], "grecia": [], "guatemala": [], "honduras": [], "hungria": [], "indonesia": [], "ira": [], "iraque": [], "jordania": [], "kuwait": [], "libano": [], "libia": [], "malasia": [], "marrocos": [], "mocambique": [], "nepal": [], "nigeria": [], "paraguai": [], "qatar": [], "quenia": [], "republicadominicana": [], "republicatcheca": [], "romenia": [], "russia": [], "senegal": [], "serraleoa": [], "singapura": [], "siria": [], "somalia": [], "srilanka": [], "tanzania": [], "tunisia": [], "turquia": [], "ucrania": [], "uganda": [], "uzbequistao": [], "vietna": [], "zambia": [], "zimbabue": []
+  // Países que permanecem vazios após a busca final
+  "afeganistao": [], "arabiasaudita": [], "bangladesh": [], "china": [], "costarica": [], "cuba": [], "egito": [], "emiradosarabes": [], "equador": [], "guatemala": [], "honduras": [], "hungria": [], "indonesia": [], "ira": [], "iraque": [], "jordania": [], "kuwait": [], "libano": [], "libia": [], "malasia": [], "marrocos": [], "mocambique": [], "nepal": [], "nigeria": [], "paraguai": [], "qatar": [], "quenia": [], "republicadominicana": [], "republicatcheca": [], "romenia": [], "russia": [], "senegal": [], "serraleoa": [], "singapura": [], "siria": [], "somalia": [], "srilanka": [], "tanzania": [], "tunisia": [], "turquia": [], "ucrania": [], "uganda": [], "uzbequistao": [], "vietna": [], "zambia": [], "zimbabue": []
 };
