@@ -1,5 +1,9 @@
 const pessoasPorPais = {
   // Países com pessoas encontradas
+  "africadosul": [ // Novo!
+    { "name": "Yaya Mavundla", "img": "images/yaya-mavundla.webp" },
+    { "name": "Leigh-Ann van der Merwe", "img": "images/leigh-ann-van-der-merwe.webp" }
+  ],
   "alemanha": [
     { "name": "Nyke Slawik", "img": "images/nyke-slawik.webp" },
     { "name": "Tessa Ganserer", "img": "images/tessa-ganserer.webp" }
@@ -13,7 +17,7 @@ const pessoasPorPais = {
     { "name": "Georgie Stone", "img": "images/georgie-stone.webp" },
     { "name": "Andreja Pejić", "img": "images/andreja-pejic.webp" }
   ],
-  "austria": [ // Novo!
+  "austria": [
     { "name": "Aylime Aslım", "img": "images/aylime-aslim.webp" }
   ],
   "belgica": [
@@ -26,7 +30,9 @@ const pessoasPorPais = {
     { "name": "Laerte Coutinho", "img": "images/laerte-coutinho.webp"},
     { "name": "Duda Salabert", "img": "images/duda-salabert.webp" },
     { "name": "Pepita", "img": "images/pepita.webp" },
-    { "name": "Jonas Maria", "img": "images/jonas-maria.webp" }
+    { "name": "Jonas Maria", "img": "images/jonas-maria.webp" },
+    { "name": "Amara Moira", "img": "images/amara-moira.webp" },
+    { "name": "Thammy Miranda", "img": "images/thammy-miranda.webp" }
   ],
   "canada": [
     { "name": "Elliot Page", "img": "images/elliot-page.webp" },
@@ -40,7 +46,7 @@ const pessoasPorPais = {
     { "name": "Brigitte Baptiste", "img": "images/brigitte-baptiste.webp" },
     { "name": "Mara Cifuentes", "img": "images/mara-cifuentes.webp" }
   ],
-  "coreiadosul": [ // Novo!
+  "coreiadosul": [
     { "name": "Harisu", "img": "images/harisu.webp" }
   ],
   "dinamarca": [
@@ -56,7 +62,9 @@ const pessoasPorPais = {
     { "name": "Indya Moore", "img": "images/indya-moore.webp" },
     { "name": "Mj Rodriguez", "img": "images/mj-rodriguez.webp" },
     { "name": "Janet Mock", "img": "images/janet-mock.webp" },
-    { "name": "Chella Man", "img": "images/chella-man.webp" }
+    { "name": "Chella Man", "img": "images/chella-man.webp" },
+    { "name": "Asia Kate Dillon", "img": "images/asia-kate-dillon.webp" },
+    { "name": "Jonathan Van Ness", "img": "images/jonathan-van-ness.webp" }
   ],
   "filipinas": [
     { "name": "Geraldine Roman", "img": "images/geraldine-roman.webp" }
@@ -88,7 +96,7 @@ const pessoasPorPais = {
       { "name": "Victoria Volkova", "img": "images/victoria-volkova.webp" },
       { "name": "Morganna Love", "img": "images/morganna-love.webp" }
   ],
-  "noruega": [ // Novo!
+  "noruega": [
       { "name": "Esben Esther Pirelli Benestad", "img": "images/esben-esther-pirelli-benestad.webp" }
   ],
   "novazelandia": [
@@ -101,6 +109,9 @@ const pessoasPorPais = {
       { "name": "Marvia Malik", "img": "images/marvia-malik.webp" },
       { "name": "Nayyab Ali", "img": "images/nayyab-ali.webp" }
   ],
+  "peru": [ // Novo!
+    { "name": "Gahela Cari", "img": "images/gahela-cari.webp" }
+  ],
   "polonia": [
       { "name": "Anna Grodzka", "img": "images/anna-grodzka.webp" }
   ],
@@ -108,17 +119,20 @@ const pessoasPorPais = {
       { "name": "Marina Machete", "img": "images/marina-machete.webp" },
       { "name": "Maria João Vaz", "img": "images/maria-joao-vaz.webp" }
   ],
-  "reinounido": [
+  "reinounido": [ // Expandido!
     { "name": "Munroe Bergdorf", "img": "images/munroe-bergdorf.webp"},
     { "name": "Shon Faye", "img": "images/shon-faye.webp"},
-    { "name": "Travis Alabanza", "img": "images/travis-alabanza.webp" }
+    { "name": "Travis Alabanza", "img": "images/travis-alabanza.webp" },
+    { "name": "Jake Graf", "img": "images/jake-graf.webp" },
+    { "name": "Owl Fisher", "img": "images/owl-fisher.webp" }
   ],
   "suecia": [
     { "name": "Lina Axelsson Kihlblom", "img": "images/lina-axelsson-kihlblom.webp" },
     { "name": "Saga Becker", "img": "images/saga-becker.webp" }
   ],
-  "suica": [ // Novo!
-    { "name": "Aleshanee", "img": "images/aleshanee.webp" }
+  "suica": [
+    { "name": "Aleshanee", "img": "images/aleshanee.webp" },
+    { "name": "Tamy Glauser", "img": "images/tamy-glauser.webp" }
   ],
   "tailandia": [
     { "name": "Treechada Petcharat", "img": "images/treechada-petcharat.webp" },
@@ -132,5 +146,5 @@ const pessoasPorPais = {
   ],
   
   // Países que permanecem vazios após a busca aprofundada
-  "afeganistao": [], "africadosul": [], "arabiasaudita": [], "bangladesh": [], "bolivia": [], "china": [], "costarica": [], "cuba": [], "egito": [], "emiradosarabes": [], "equador": [], "grecia": [], "guatemala": [], "honduras": [], "hungria": [], "indonesia": [], "ira": [], "iraque": [], "jordania": [], "kuwait": [], "libano": [], "libia": [], "malasia": [], "marrocos": [], "mocambique": [], "nepal": [], "nigeria": [], "paraguai": [], "peru": [], "qatar": [], "quenia": [], "republicadominicana": [], "republicatcheca": [], "romenia": [], "russia": [], "senegal": [], "serraleoa": [], "singapura": [], "siria": [], "somalia": [], "srilanka": [], "tanzania": [], "tunisia": [], "turquia": [], "ucrania": [], "uganda": [], "uzbequistao": [], "vietna": [], "zambia": [], "zimbabue": []
+  "afeganistao": [], "arabiasaudita": [], "bangladesh": [], "bolivia": [], "china": [], "costarica": [], "cuba": [], "egito": [], "emiradosarabes": [], "equador": [], "grecia": [], "guatemala": [], "honduras": [], "hungria": [], "indonesia": [], "ira": [], "iraque": [], "jordania": [], "kuwait": [], "libano": [], "libia": [], "malasia": [], "marrocos": [], "mocambique": [], "nepal": [], "nigeria": [], "paraguai": [], "qatar": [], "quenia": [], "republicadominicana": [], "republicatcheca": [], "romenia": [], "russia": [], "senegal": [], "serraleoa": [], "singapura": [], "siria": [], "somalia": [], "srilanka": [], "tanzania": [], "tunisia": [], "turquia": [], "ucrania": [], "uganda": [], "uzbequistao": [], "vietna": [], "zambia": [], "zimbabue": []
 };
