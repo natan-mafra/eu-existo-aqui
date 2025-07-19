@@ -1,175 +1,174 @@
 const pessoasPorPais = {
   // Países com pessoas encontradas
   "africadosul": [
-    { "name": "Yaya Mavundla", "img": "images/yaya-mavundla.webp" },
-    { "name": "Leigh-Ann van der Merwe", "img": "images/leigh-ann-van-der-merwe.webp" }
+    { "name": "Yaya Mavundla", "img": "images/yaya-mavundla.jpeg" },
+    { "name": "Leigh-Ann van der Merwe", "img": "images/leigh-ann-van-der-merwe.jpeg" }
   ],
   "alemanha": [
-    { "name": "Nyke Slawik", "img": "images/nyke-slawik.webp" },
-    { "name": "Tessa Ganserer", "img": "images/tessa-ganserer.webp" }
+    { "name": "Nyke Slawik", "img": "images/nyke-slawik.jpeg" },
+    { "name": "Tessa Ganserer", "img": "images/tessa-ganserer.jpeg" }
   ],
   "argentina": [
-    { "name": "Flor de la V", "img": "images/flor-de-la-v.webp" },
-    { "name": "Mariana Genesio Peña", "img": "images/mariana-genesio-pena.webp" },
-    { "name": "La Tota Santillán", "img": "images/la-tota-santillan.webp" }
+    { "name": "Flor de la V", "img": "images/flor-de-la-v.jpeg" },
+    { "name": "Mariana Genesio Peña", "img": "images/mariana-genesio-pena.jpeg" }
   ],
   "australia": [
-    { "name": "Georgie Stone", "img": "images/georgie-stone.webp" },
-    { "name": "Andreja Pejić", "img": "images/andreja-pejic.webp" }
+    { "name": "Georgie Stone", "img": "images/georgie-stone.jpeg" },
+    { "name": "Andreja Pejić", "img": "images/andreja-pejic.jpeg" }
   ],
   "austria": [
-    { "name": "Aylime Aslım", "img": "images/aylime-aslim.webp" }
+    { "name": "Aylime Aslım", "img": "images/aylime-aslim.jpeg" }
   ],
   "belgica": [
-    { "name": "Petra De Sutter", "img": "images/petra-de-sutter.webp" },
-    { "name": "Bo Van Spilbeeck", "img": "images/bo-van-spilbeeck.webp" }
+    { "name": "Petra De Sutter", "img": "images/petra-de-sutter.jpeg" },
+    { "name": "Bo Van Spilbeeck", "img": "images/bo-van-spilbeeck.jpeg" }
   ],
   "bolivia": [
-    { "name": "Pamela Valenzuela", "img": "images/pamela-valenzuela.webp" }
+    { "name": "Pamela Valenzuela", "img": "images/pamela-valenzuela.jpeg" }
   ],
   "brasil": [
-    { "name": "Erika Hilton", "img": "images/erika-hilton.webp" },
-    { "name": "Linn da Quebrada", "img": "images/linn-da-quebrada.webp" },
-    { "name": "Laerte Coutinho", "img": "images/laerte-coutinho.webp"},
-    { "name": "Duda Salabert", "img": "images/duda-salabert.webp" },
-    { "name": "Pepita", "img": "images/pepita.webp" },
-    { "name": "Jonas Maria", "img": "images/jonas-maria.webp" },
-    { "name": "Amara Moira", "img": "images/amara-moira.webp" }
+    { "name": "Erika Hilton", "img": "images/erika-hilton.jpeg" },
+    { "name": "Linn da Quebrada", "img": "images/linn-da-quebrada.jpeg" },
+    { "name": "Laerte Coutinho", "img": "images/laerte-coutinho.jpeg"},
+    { "name": "Duda Salabert", "img": "images/duda-salabert.jpeg" },
+    { "name": "Pepita", "img": "images/pepita.jpeg" },
+    { "name": "Jonas Maria", "img": "images/jonas-maria.jpeg" },
+    { "name": "Amara Moira", "img": "images/amara-moira.jpeg" }
   ],
   "canada": [
-    { "name": "Elliot Page", "img": "images/elliot-page.webp" },
-    { "name": "Gigi Gorgeous", "img": "images/gigi-gorgeous.webp" },
-    { "name": "Jenna Talackova", "img": "images/jenna-talackova.webp" }
+    { "name": "Elliot Page", "img": "images/elliot-page.jpeg" },
+    { "name": "Gigi Gorgeous", "img": "images/gigi-gorgeous.jpeg" },
+    { "name": "Jenna Talackova", "img": "images/jenna-talackova.jpeg" }
   ],
   "chile": [
-    { "name": "Daniela Vega", "img": "images/daniela-vega.webp" },
-    { "name": "Lux Pascal", "img": "images/lux-pascal.webp" }
+    { "name": "Daniela Vega", "img": "images/daniela-vega.jpeg" },
+    { "name": "Lux Pascal", "img": "images/lux-pascal.jpeg" }
   ],
   "colombia": [
-    { "name": "Brigitte Baptiste", "img": "images/brigitte-baptiste.webp" },
-    { "name": "Mara Cifuentes", "img": "images/mara-cifuentes.webp" }
+    { "name": "Brigitte Baptiste", "img": "images/brigitte-baptiste.jpeg" },
+    { "name": "Mara Cifuentes", "img": "images/mara-cifuentes.jpeg" }
   ],
   "coreiadosul": [
-    { "name": "Harisu", "img": "images/harisu.webp" }
+    { "name": "Harisu", "img": "images/harisu.jpeg" }
   ],
   "costarica": [
-    { "name": "Dayanara King", "img": "images/dayanara-king.webp" }
+    { "name": "Dayanara King", "img": "images/dayanara-king.jpeg" }
   ],
   "dinamarca": [
-    { "name": "Lili Elbe", "img": "images/lili-elbe.webp" }
+    { "name": "Lili Elbe", "img": "images/lili-elbe.jpeg" }
   ],
   "equador": [
-    { "name": "Diane Rodríguez", "img": "images/diane-rodriguez.webp" }
+    { "name": "Diane Rodríguez", "img": "images/diane-rodriguez.jpeg" }
   ],
   "espanha": [
-    { "name": "Carla Antonelli", "img": "images/carla-antonelli.webp" },
-    { "name": "Abril Zamora", "img": "images/abril-zamora.webp" }
+    { "name": "Carla Antonelli", "img": "images/carla-antonelli.jpeg" },
+    { "name": "Abril Zamora", "img": "images/abril-zamora.jpeg" }
   ],
   "estadosunidos": [
-    { "name": "Laverne Cox", "img": "images/laverne-cox.webp" },
-    { "name": "Hunter Schafer", "img": "images/hunter-schafer.webp" },
-    { "name": "Indya Moore", "img": "images/indya-moore.webp" },
-    { "name": "Mj Rodriguez", "img": "images/mj-rodriguez.webp" },
-    { "name": "Janet Mock", "img": "images/janet-mock.webp" },
-    { "name": "Chella Man", "img": "images/chella-man.webp" },
-    { "name": "Asia Kate Dillon", "img": "images/asia-kate-dillon.webp" },
-    { "name": "Jonathan Van Ness", "img": "images/jonathan-van-ness.webp" }
+    { "name": "Laverne Cox", "img": "images/laverne-cox.jpeg" },
+    { "name": "Hunter Schafer", "img": "images/hunter-schafer.jpeg" },
+    { "name": "Indya Moore", "img": "images/indya-moore.jpeg" },
+    { "name": "Mj Rodriguez", "img": "images/mj-rodriguez.jpeg" },
+    { "name": "Janet Mock", "img": "images/janet-mock.jpeg" },
+    { "name": "Chella Man", "img": "images/chella-man.jpeg" },
+    { "name": "Asia Kate Dillon", "img": "images/asia-kate-dillon.jpeg" },
+    { "name": "Jonathan Van Ness", "img": "images/jonathan-van-ness.jpeg" }
   ],
   "filipinas": [
-    { "name": "Geraldine Roman", "img": "images/geraldine-roman.webp" }
+    { "name": "Geraldine Roman", "img": "images/geraldine-roman.jpeg" }
   ],
   "finlandia": [
-    { "name": "Marja-Sisko Aalto", "img": "images/marja-sisko-aalto.webp" }
+    { "name": "Marja-Sisko Aalto", "img": "images/marja-sisko-aalto.jpeg" }
   ],
   "franca": [
-      { "name": "Marie Cau", "img": "images/marie-cau.webp" },
-      { "name": "Océan", "img": "images/ocean.webp" }
+      { "name": "Marie Cau", "img": "images/marie-cau.jpeg" },
+      { "name": "Océan", "img": "images/ocean.jpeg" }
   ],
   "grecia": [
-    { "name": "Anna Apergi", "img": "images/anna-apergi.webp" }
+    { "name": "Anna Apergi", "img": "images/anna-apergi.jpeg" }
   ],
   "honduras": [
-    { "name": "Thalía Rodríguez", "img": "images/thalia-rodriguez.webp" }
+    { "name": "Thalía Rodríguez", "img": "images/thalia-rodriguez.jpeg" }
   ],
   "india": [
-      { "name": "Gauri Sawant", "img": "images/gauri-sawant.webp" },
-      { "name": "Laxmi Narayan Tripathi", "img": "images/laxmi-narayan-tripathi.webp" }
+      { "name": "Gauri Sawant", "img": "images/gauri-sawant.jpeg" },
+      { "name": "Laxmi Narayan Tripathi", "img": "images/laxmi-narayan-tripathi.jpeg" }
   ],
   "irlanda": [
-      { "name": "Lydia Foy", "img": "images/lydia-foy.webp" },
-      { "name": "Sara R Phillips", "img": "images/sara-r-phillips.webp" }
+      { "name": "Lydia Foy", "img": "images/lydia-foy.jpeg" },
+      { "name": "Sara R Phillips", "img": "images/sara-r-phillips.jpeg" }
   ],
   "islandia": [
-      { "name": "Ólöf Bjarki Antons", "img": "images/olof-bjarki-antons.webp" },
-      { "name": "Alda Villiljós", "img": "images/alda-villiljos.webp" }
+      { "name": "Ólöf Bjarki Antons", "img": "images/olof-bjarki-antons.jpeg" },
+      { "name": "Alda Villiljós", "img": "images/alda-villiljos.jpeg" }
   ],
   "italia": [
-      { "name": "Vladimir Luxuria", "img": "images/vladimir-luxuria.webp" }
+      { "name": "Vladimir Luxuria", "img": "images/vladimir-luxuria.jpeg" }
   ],
   "japao": [
-      { "name": "Tomoya Hosoda", "img": "images/tomoya-hosoda.webp" },
-      { "name": "Kayo Satoh", "img": "images/kayo-satoh.webp" }
+      { "name": "Tomoya Hosoda", "img": "images/tomoya-hosoda.jpeg" },
+      { "name": "Kayo Satoh", "img": "images/kayo-satoh.jpeg" }
   ],
   "mexico": [
-      { "name": "Victoria Volkova", "img": "images/victoria-volkova.webp" },
-      { "name": "Morganna Love", "img": "images/morganna-love.webp" }
+      { "name": "Victoria Volkova", "img": "images/victoria-volkova.jpeg" },
+      { "name": "Morganna Love", "img": "images/morganna-love.jpeg" }
   ],
   "nepal": [
-    { "name": "Bhumika Shrestha", "img": "images/bhumika-shrestha.webp" }
+    { "name": "Bhumika Shrestha", "img": "images/bhumika-shrestha.jpeg" }
   ],
   "noruega": [
-      { "name": "Esben Esther Pirelli Benestad", "img": "images/esben-esther-pirelli-benestad.webp" }
+      { "name": "Esben Esther Pirelli Benestad", "img": "images/esben-esther-pirelli-benestad.jpeg" }
   ],
   "novazelandia": [
-      { "name": "Georgina Beyer", "img": "images/georgina-beyer.webp" }
+      { "name": "Georgina Beyer", "img": "images/georgina-beyer.jpeg" }
   ],
   "paisesbaixos": [
-      { "name": "Lisa van Ginneken", "img": "images/lisa-van-ginneken.webp" },
-      { "name": "Nikkie de Jager", "img": "images/nikkie-de-jager.webp" }
+      { "name": "Lisa van Ginneken", "img": "images/lisa-van-ginneken.jpeg" },
+      { "name": "Nikkie de Jager", "img": "images/nikkie-de-jager.jpeg" }
   ],
   "paquistao": [
-      { "name": "Marvia Malik", "img": "images/marvia-malik.webp" },
-      { "name": "Nayyab Ali", "img": "images/nayyab-ali.webp" }
+      { "name": "Marvia Malik", "img": "images/marvia-malik.jpeg" },
+      { "name": "Nayyab Ali", "img": "images/nayyab-ali.jpeg" }
   ],
   "peru": [
-    { "name": "Gahela Cari", "img": "images/gahela-cari.webp" }
+    { "name": "Gahela Cari", "img": "images/gahela-cari.jpeg" }
   ],
   "polonia": [
-      { "name": "Anna Grodzka", "img": "images/anna-grodzka.webp" }
+      { "name": "Anna Grodzka", "img": "images/anna-grodzka.jpeg" }
   ],
   "portugal": [
-      { "name": "Marina Machete", "img": "images/marina-machete.webp" },
-      { "name": "Maria João Vaz", "img": "images/maria-joao-vaz.webp" }
+      { "name": "Marina Machete", "img": "images/marina-machete.jpeg" },
+      { "name": "Maria João Vaz", "img": "images/maria-joao-vaz.jpeg" }
   ],
   "quenia": [
-    { "name": "Audrey Mbugua", "img": "images/audrey-mbugua.webp" }
+    { "name": "Audrey Mbugua", "img": "images/audrey-mbugua.jpeg" }
   ],
   "reinounido": [
-    { "name": "Munroe Bergdorf", "img": "images/munroe-bergdorf.webp"},
-    { "name": "Shon Faye", "img": "images/shon-faye.webp"},
-    { "name": "Travis Alabanza", "img": "images/travis-alabanza.webp" },
-    { "name": "Jake Graf", "img": "images/jake-graf.webp" },
-    { "name": "Owl Fisher", "img": "images/owl-fisher.webp" }
+    { "name": "Munroe Bergdorf", "img": "images/munroe-bergdorf.jpeg"},
+    { "name": "Shon Faye", "img": "images/shon-faye.jpeg"},
+    { "name": "Travis Alabanza", "img": "images/travis-alabanza.jpeg" },
+    { "name": "Jake Graf", "img": "images/jake-graf.jpeg" },
+    { "name": "Owl Fisher", "img": "images/owl-fisher.jpeg" }
   ],
   "suecia": [
-    { "name": "Lina Axelsson Kihlblom", "img": "images/lina-axelsson-kihlblom.webp" },
-    { "name": "Saga Becker", "img": "images/saga-becker.webp" }
+    { "name": "Lina Axelsson Kihlblom", "img": "images/lina-axelsson-kihlblom.jpeg" },
+    { "name": "Saga Becker", "img": "images/saga-becker.jpeg" }
   ],
   "suica": [
-    { "name": "Aleshanee", "img": "images/aleshanee.webp" },
-    { "name": "Tamy Glauser", "img": "images/tamy-glauser.webp" },
-    { "name": "Giuliana Farfalla", "img": "images/giuliana-farfalla.webp" }
+    { "name": "Aleshanee", "img": "images/aleshanee.jpeg" },
+    { "name": "Tamy Glauser", "img": "images/tamy-glauser.jpeg" },
+    { "name": "Giuliana Farfalla", "img": "images/giuliana-farfalla.jpeg" }
   ],
   "tailandia": [
-    { "name": "Treechada Petcharat", "img": "images/treechada-petcharat.webp" },
-    { "name": "Parinya Charoenphol", "img": "images/parinya-charoenphol.webp" },
-    { "name": "Bell Nuntita", "img": "images/bell-nuntita.webp" }
+    { "name": "Treechada Petcharat", "img": "images/treechada-petcharat.jpeg" },
+    { "name": "Parinya Charoenphol", "img": "images/parinya-charoenphol.jpeg" },
+    { "name": "Bell Nuntita", "img": "images/bell-nuntita.jpeg" }
   ],
   "uruguai": [
-    { "name": "Gloria Meneses", "img": "images/gloria-meneses.webp" }
+    { "name": "Gloria Meneses", "img": "images/gloria-meneses.jpeg" }
   ],
   "venezuela": [
-      { "name": "Tamara Adrián", "img": "images/tamara-adrian.webp" }
+      { "name": "Tamara Adrián", "img": "images/tamara-adrian.jpeg" }
   ],
   
   // Países que permanecem vazios após a busca final
