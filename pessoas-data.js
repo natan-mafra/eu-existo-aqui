@@ -157,7 +157,6 @@ const pessoasPorPais = {
     { "name": "Saga Becker", "img": "images/saga-becker.jpeg" }
   ],
   "suica": [
-    { "name": "Aleshanee", "img": "images/aleshanee.jpeg" },
     { "name": "Tamy Glauser", "img": "images/tamy-glauser.jpeg" },
     { "name": "Giuliana Farfalla", "img": "images/giuliana-farfalla.jpeg" }
   ],
