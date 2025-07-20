@@ -33,7 +33,8 @@ const pessoasPorPais = {
     { "name": "Duda Salabert", "img": "images/duda-salabert.jpeg" },
     { "name": "Pepita", "img": "images/pepita.jpeg" },
     { "name": "Jonas Maria", "img": "images/jonas-maria.jpeg" },
-    { "name": "Amara Moira", "img": "images/amara-moira.jpeg" }
+    { "name": "Amara Moira", "img": "images/amara-moira.jpeg" },
+    { "name": "Popo Vaz", "img": "images/popo-vaz.jpeg" }
   ],
   "canada": [
     { "name": "Elliot Page", "img": "images/elliot-page.jpeg" },
@@ -148,7 +149,8 @@ const pessoasPorPais = {
     { "name": "Shon Faye", "img": "images/shon-faye.jpeg"},
     { "name": "Travis Alabanza", "img": "images/travis-alabanza.jpeg" },
     { "name": "Jake Graf", "img": "images/jake-graf.jpeg" },
-    { "name": "Owl Fisher", "img": "images/owl-fisher.jpeg" }
+    { "name": "Owl Fisher", "img": "images/owl-fisher.jpeg" },
+    { "name": "Fox Fisher", "img": "images/fox-fisher.jpeg" }
   ],
   "suecia": [
     { "name": "Lina Axelsson Kihlblom", "img": "images/lina-axelsson-kihlblom.jpeg" },
