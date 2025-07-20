@@ -27,14 +27,18 @@ const pessoasPorPais = {
     { "name": "Pamela Valenzuela", "img": "images/pamela-valenzuela.jpeg" }
   ],
   "brasil": [
+    { "name": "Gisberta", "img": "images/gisberta.jpeg"}
     { "name": "Erika Hilton", "img": "images/erika-hilton.jpeg" },
     { "name": "Linn da Quebrada", "img": "images/linn-da-quebrada.jpeg" },
     { "name": "Laerte Coutinho", "img": "images/laerte-coutinho.jpeg"},
     { "name": "Duda Salabert", "img": "images/duda-salabert.jpeg" },
     { "name": "Pepita", "img": "images/pepita.jpeg" },
     { "name": "Jonas Maria", "img": "images/jonas-maria.jpeg" },
+    { "name": "Natan Mafra", "img": "images/natan-mafra.jpeg" },
     { "name": "Amara Moira", "img": "images/amara-moira.jpeg" },
-    { "name": "Popo Vaz", "img": "images/popo-vaz.jpeg" }
+    { "name": "Popo Vaz", "img": "images/popo-vaz.jpeg" },
+    { "name": "Urias", "img": "images/urias.jpeg" },
+    { "name": "Luca Scarpelli", "img":"images/luca-scarpelli.jpeg"}
   ],
   "canada": [
     { "name": "Elliot Page", "img": "images/elliot-page.jpeg" },
