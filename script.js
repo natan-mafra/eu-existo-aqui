@@ -17,8 +17,19 @@ function showWord() {
 
 function redirect() {
     const wordElement = document.getElementById("word");
-    const countryKey = wordElement.dataset.country.toLowerCase().replace(/\s+/g, '').replace(/ç/g, 'c').replace(/ã/g, 'a');
-    const countryDisplayName = wordElement.dataset.country;
+    const countryDisplayName = wordElement.dataset.country; // Ex: "Canadá"
+
+    // Lógica corrigida para garantir a remoção de acentos
+    const countryKey = countryDisplayName
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "") // Remove os acentos
+        .replace(/\s+/g, ''); // Remove os espaços
+
+    if (countryKey) {
+        window.location.href = `pessoas.html?key=${encodeURIComponent(countryKey)}&name=${encodeURIComponent(countryDisplayName)}`;
+    }
+}
 
     if (countryKey) {
         window.location.href = `pessoas.html?key=${encodeURIComponent(countryKey)}&name=${encodeURIComponent(countryDisplayName)}`;
