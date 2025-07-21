@@ -28,6 +28,7 @@ const pessoasPorPais = {
   ],
   "brasil": [
     { "name": "Gisberta", "img": "images/gisberta.jpg"},
+    { "name": "Jacqueline Brasil", "img": "images/jacqueline-brasil.jpg"},
     { "name": "Erika Hilton", "img": "images/erika-hilton.jpg" },
     { "name": "Linn da Quebrada", "img": "images/linn-da-quebrada.jpg" },
     { "name": "Laerte Coutinho", "img": "images/laerte-coutinho.jpg"},
